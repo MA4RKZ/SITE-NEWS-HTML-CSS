@@ -1,0 +1,251 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "Trebuchet MS", Helvica, sans-serif;
+	background:#fff url(imgpj/fundo.png) repeat-x;
+}
+
+ul{
+	list-style: none;
+	
+	
+	margin: 0;
+	padding: 0;
+
+}
+
+#top ul{
+        background: #b10333;
+        margin-top: 30px;
+        float: left;
+}
+
+#top ul li{
+	float: left;
+}
+
+#top ul a{
+	background: url(imgpj/divisor.png) no-repeat left center;
+	display: block;
+	padding: 0.5em 1.5em;
+	font-size: 0.9em;
+	text-decoration: none;
+	color: #fff;
+	line-height: 2.1em;
+}
+
+#top ul a:hover{
+	color: #69001d
+}
+
+#top ul .first a {
+	background: none;
+}
+
+
+
+
+
+
+#container{
+	width: 750px;
+	margin: 0 auto;
+	
+}
+
+#top{
+     height: 150px;
+     background: url(imgpj/detalhe-topo.png) no-repeat right top;
+     padding-top: 25px;
+}
+
+
+#contents{
+          margin-top: 60px;
+          background: blue;
+
+}
+
+
+#lateral{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+
+
+#principal{
+           width: 270px;
+           float: left;
+           margin: 0 0 20px 195px;
+           
+}
+
+#dois #principal{
+	   width: 555px;
+           
+}
+
+#um #principal{
+	   width: 750px;
+       margin: 0 0 20px 0px;
+}
+
+#sec{
+	width: 270px;
+	margin: 0 0  20px 15px;
+	float: left;
+	
+}
+
+#lateral ul a{
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+
+}
+
+#lateral ul a:hover{
+	color: #a1a1a1;
+	padding-left: 20px;
+	background: #f9f9f9 url(imgpj/marcador.png) no-repeat left center;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input{
+	font-size: 0.9em;
+	background-color: #fff;
+	padding: 5px;
+	width: 125px;
+}
+
+input.submit{
+	font-size: 0.9em;
+	background-color: #b10333;
+	color: #fff;
+	border: 2px solid #870529;
+	
+	width: 80px;
+}
+
+
+
+
+
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.ciencia #navegacao a#ciencia,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude
+body.fotos #navegacao a#fotos
+
+{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+
+}
+
+.logo{
+	 height: 66px;
+	 width: 152px;
+	 background: url(imgpj/logo.png) no-repeat center;
+	 
+	}
+
+.box{
+	margin: 10px 0;
+	padding: 5px;
+     background: url(imgpj/fundo-caixa.png);
+}
+
+h2{
+	font-size: 1em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px;
+}
+
+h3{
+	text-transform:uppercase;
+	display: inline ;
+	font-size: 1em;
+	padding: 3px;
+	
+}
+
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+.entrevista h3{
+	background: #de003e;
+}
+img{
+	border: 2px solid #dfdfdf;
+}
+
+img.prc {
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+
+.box-c{
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#lista li{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+
+}
+#lista li a img {
+	float: left;
+	margin: 5px;
+}
+#lista li a {
+	text-decoration: none;
+	
+}
+#lista li a h3 {
+	padding: 0;
+	font-size: 0.8em;
+	color: #3e7ab9;
+}
+
+#lista li a p {
+	
+	font-size: 0.7em;
+}
+
+#lista li:hover {
+	background: #eee;
+	cursor: pointer;
+	
+}
+
+#rodape{
+	
+	padding: 20px;
+	background: #294c71;
+}
+#rd{
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}
